@@ -105,7 +105,7 @@ export function CommandMenu() {
 
     document.addEventListener("keydown", down);
     return () => document.removeEventListener("keydown", down);
-  }, []);
+  }, [open, setOpen]);
 
   const commandAction = (group: string, title: string) => {
     if (group === "home") {

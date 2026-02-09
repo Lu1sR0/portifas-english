@@ -26,7 +26,7 @@ export default function Contact() {
 
           <div className="absolute inset-0 flex size-full flex-col items-center justify-center rounded-lg  md:shadow-xl">
             <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-white from-25% to-black to-[130%] bg-clip-text text-center text-6xl font-semibold leading-none text-transparent lg:text-7xl">
-              Have a project? Let's talk!
+              Have a project? Let&apos;s talk!
             </span>
 
             {socials.map((social) => (
